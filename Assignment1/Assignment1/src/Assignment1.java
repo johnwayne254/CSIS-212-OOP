@@ -7,15 +7,15 @@ public class Assignment1 {
 //main method execution
 	public static void main(String[] args)
 	{ 
-		System.out.println("Stanley Soman - Assignment 1\n"); // Heading
+		System.out.println("Amarachi Mazariegos - CSIS 212\n"); // Heading
 		
 		//Program 1
 		//5 Different sentences of technology being used to win souls for Jesus Christ
-		System.out.println("Technology allows Christians to spread the good news that Christ commanded to the world through a medium.");
-		System.out.println("Technology allows christians to create virtual communities that encourage and develop brotherhood and sisterhood.");
-		System.out.println("If that seems to be all, one of the most greatest changes have been that truth has been redefined in light of the gospel message shared and heard from all corners of the world.");
-		System.out.println("There are now many resources for christians to grow in their faith and to nurture their relationship with God through many encouraging messages and music. This prevents backsliding of those who are not strong in their faith.");
-		System.out.println("Finally, technology has allowed church gatherings to be live-streamed and gather more visitors and members from online sources, increasing memberships like never before.\n");
+		System.out.println("Social media platforms have allowed us to reach a global audience with the message of Christ.");
+		System.out.println("Websites provide a space for sharing sermons, devotionals, and other spiritual resources.");
+		System.out.println("Online streaming services enable live broadcasts of church services to those unable to attend in person.");
+		System.out.println("Mobile apps offer daily scriptures, prayers, and inspirational messages to users.");
+		System.out.println("Email newsletters keep the congregation informed and spiritually engaged throughout the week.\n");
 	    
 		//Program 2
 		//Request user's name
