@@ -4,9 +4,9 @@ import java.util.Scanner; //import scanner
 public class Assignment4Exercise516 {
 
 	public static void main(String[] args) {
-		System.out.println("Stanley Soman - Assignment 4 Exercise 5.16 JHTP\n"); // Heading
+		System.out.println("Amarachi Mazariegos - Assignment 4 Exercise 5.16 JHTP\n"); // Heading
 		
-		Scanner input = new Scanner ( System.in ); //open prompt for number
+		Scanner input = new Scanner ( System.in ); 
 		
 		int first; //the first number
 		int second; // the second number
@@ -14,7 +14,6 @@ public class Assignment4Exercise516 {
 		System.out.print("Enter first number (0 to exit): ");
 		first = input.nextInt();
 		
-		//use 0 as the sentinel value, since we cannot divide by zero
 		while (first != 0)
 		{ 
 			System.out.print( "Enter second number: ");
