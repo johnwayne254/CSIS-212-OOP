@@ -1,12 +1,10 @@
-//Assignment 3 Exercise 5.35 (Computer-Assisted Instruction)
-import java.security.SecureRandom; // program uses class SecureRandom
-import java.util.Scanner; // import scanner
+import java.security.SecureRandom; 
+import java.util.Scanner; 
 public class Assignment4Exercise535 {
 
 	public static void main(String[] args) { //main 
-		System.out.println("Stanley Soman - Assignment 4 Exercise 5.35 Computer-Assisted Instruction \n"); // Heading
+		System.out.println("Amarachi Mazariegos - Assignment 4 Exercise 5.35 Computer-Assisted Instruction \n"); // Heading
 		SecureRandom randomNumbers = new SecureRandom();
-		// randomNumbers object will produce secure random numbers
 		
 		//create scanner for input
 		Scanner input = new Scanner(System.in);		
@@ -30,7 +28,7 @@ public class Assignment4Exercise535 {
 				System.out.print("No. Please try again."); //we let them know
 				System.out.printf("How much is %d times %d \n ", number1,number2); //we want right answer
 				inputanswer = input.nextInt(); //we prompt again endless while loop
-				if ( (randomnumberproduct) == storedinput) { //but if right answer we break out of while condition
+				if ( (randomnumberproduct) == storedinput) { 
 					correctanswer();
 					}
 				}
@@ -38,7 +36,7 @@ public class Assignment4Exercise535 {
 	} //end main
 	
 	public static void correctanswer () { //our second method
-		System.out.print("Very Good!"); 	 //  executed each time question is answered correctly
+		System.out.print("Very Good!"); 	 
 	} //end second method
 			
-	}//end assignment class
+	}
