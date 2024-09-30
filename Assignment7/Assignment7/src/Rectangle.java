@@ -1,10 +1,9 @@
 import java.util.Scanner; //import scanner to take input
-//Assignment 7 Exercise 8.4 JHTP (Rectangle Class)
 public class Rectangle {
 
 	//create instance variables
-	private double length; //we want numbers 1-19
-	private double width; //we want numbers 1-19
+	private double length; //Numbers between 1-19
+	private double width; //Numbers between 1-19
 
 	//Rectangle constructor with two parameters
 	public Rectangle (double length, double width)
@@ -75,7 +74,7 @@ public class Rectangle {
 	//begin main
 	public static void main(String[] args) {
 		
-		System.out.println("Stanley Soman - Assignment 7 Exercise 8.4 JHTP Rectangle Class\n"); // Heading
+		System.out.println("Amarachi Mazariegos - Assignment 7 Exercise 8.4 JHTP Rectangle Class\n"); 
 		
 		//Scanner input
 		Scanner input = new Scanner( System.in );
@@ -101,11 +100,10 @@ public class Rectangle {
 			
 			choice = getMenuChoice(); //while loop still running get menu again
 			
-		} //end while loop
+		} 
 		
-	} //end main
+	} 
 	
-	//method for our menu
 	private static int getMenuChoice()
 	{
 		Scanner input = new Scanner( System.in );
@@ -115,6 +113,6 @@ public class Rectangle {
 		System.out.print("Choice ");
 		
 		return input.nextInt();
-	} //end method getMenuChoice
+	} 
 
-} //end class Rectangle
+} 
