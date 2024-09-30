@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//Assignment 6 Exercise 7.13 JHTP (Date Class)
 public class Date {
 	
 //create instance variables
@@ -28,7 +27,7 @@ public class Date {
 	
 	public String getMonth()
 	{
-		return month; //return value of month to caller
+		return month; //return value of month
 	}
 	
 	public String getDay()
@@ -44,7 +43,7 @@ public class Date {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Stanley Soman - Assignment 6 Exercise 7.13 JHTP Date Class\n"); // Heading
+		System.out.println("Amarachi Mazariegos - Assignment 6 Exercise 7.13 JHTP Date Class\n"); // Heading
 		
 		// create a Scanner object to obtain input from the command window
 		Scanner input =  new Scanner(System.in);
@@ -73,6 +72,6 @@ public class Date {
 		//display dates
 		System.out.printf("The date is: %n" + "%s" + "/" + "%s" + "/" + "%s", displayDate.getMonth(),displayDate.getDay(),displayDate.getYear());
 
-	} //end main
+	} 
 
-} //end assignment
+} 
