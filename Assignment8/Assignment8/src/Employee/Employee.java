@@ -77,6 +77,5 @@ public abstract class Employee {
 
 		public abstract double earnings(); //no implementation
 
-} // end abstract employee
-
+} 
 
