@@ -59,4 +59,4 @@ public class HourlyEmployee extends Employee {
 		    "hours worked", getHours() );
 	  } // end method toString
 	
-} //end class HourlyEmployee
+}
