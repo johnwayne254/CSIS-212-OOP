@@ -1,4 +1,3 @@
-//Assignment1 -- This is assignment one
 //CSIS 212 - D01
 import javax.swing.JOptionPane;
 import java.util.Scanner; 
@@ -84,5 +83,5 @@ public class Assignment1 {
         	System.out.printf("%d is not a multiple of %d", number1,number2);
         }
         	
-		}//end main
-}//end assignment1 class
+		}
+}
